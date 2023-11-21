@@ -1,0 +1,349 @@
+﻿title: Total
+tags:
+---
+Game: Select a script
+    ->Gavin
+        <<jump YaninGreen>>
+    ->Jarret
+        <<jump Start>>
+    ->Cailyn
+        <<jump Detective_Caine>>
+    ->Ping
+        <<jump Start1>>
+    ->Aaliyah
+        <<jump Alana>>
+===
+
+title: YaninGreen
+tags:
+---
+Game: You approach a generic looking man adorned with a green shirt and a thick beard who appears to be singing some sort of foreign rhyme
+    Stranger: Ah, helloe young ladeh, what can aye help ye with?
+        ->Rumours
+            Stranger: When aye was but a wee lad aye thar was a tale of a monster of jealousy, a heartbreaker he was told to be.
+                -> Location?
+                    Stranger: The tale talks about them thar woods n them spooky branches. If ye monster hunting go thar
+                        ->Weapon?
+                            Stranger: Tale says thar beast can be felled with a blow to thyne heart
+                                ->Leave
+                                    Stranger: Luck be upon ye!
+                        ->Leave
+                            Stranger: Luck be upon ye!
+        ->Singing
+            Stranger: What was aye singin? Oh tis but an old nursery rhyme tis about gizbits and gizbos, nothing enteresting
+                -> Gizbo and Gizbit?
+                    Stranger: Tis like a gizmo but with less giz, think of ye oven compared to ye toaster. Ye toaster is a gizbit comparatively
+                        ->Leave
+                -> Meaning?
+                    Stranger: Tis a song mostly about taking an oil lamp and then replacing the insides with thar parts of a bigger lamp
+                        ->Leave
+                ->Leave
+        ->Nothing
+            Stranger: Nice chat, be safe with ye then. 
+                ->Leave
+===
+title: Start
+tags:
+---
+in the town of yellowstone there is a killer on the lose and there was a kid and a dective and he is talking with her 
+    <<jump Node>>
+===
+title: Node
+position: 0,0
+---
+dective: kid i need your help to find out what is going on in this town can you help
+Kid: yes i can just tell me what i need to do
+dective: can you go person to person and see if they can give you any clues
+kid: yes i can
+dective: good now write down what you can find 
+kid: will do boss 
+dective: kid you need to go find the man in the red house and talk to him and see if he knows anything
+Kid: what does that mean you old man 
+dective: kid you must help the town
+->the next steps
+<<jump Node1>>
+
+===
+title: Node1
+position: 10,10
+---
+dective: the next steps are we will go along trail and we cane see if this man is near by 
+Kid: ya ya old man 
+dective: watch you tone kid 
+Kid: no i am ok 
+dective: what was that! 
+kid: what are you talking about old man
+dective: did you not hear that 
+kid: hear what?
+dective: never mind kid 
+Kid: ok
+->walking to the red house 
+<<jump Node2>>
+
+===
+title: Node2
+position: 20,20
+---
+dective: I think I will go off and search the other areas while you go try to find anymore clues from the man in the red building
+Kid:OK will do is there anything I should be looking out for
+detective: no not just see if there's anything out of the ordinary and make a note of what it was.
+Kid: but how am I supposed to do that I don't even know what I'm looking for.
+detective: you will figure it out try to see if there's anything that's been pushed out of place or anything that doesn't seem right. 
+Kid: OK I will look around and I will talk to the homeowner to see if I can figure out what's going on.
+detective: OK sounds good kid
+-> next steps
+<<jump Node3>>
+===
+title: Node3
+position: 30,30
+---
+dective: so what have you found so far 
+Kid: not much but i am still looking 
+dective: ok sounds good keep it up 
+Kid: you know i will 
+dective: i am counting on you 
+Kid: i know so is the town 
+dective: keep it up 
+detective: good luck kid 
+Kid: thanks you to 
+the end 
+===
+title: Detective_Caine
+---
+Detective Caine: *Detective Caine sits alone at a small table, a dim lamp casting long shadows across the room. He stares at a map of Hollowbrook, marked with unsettling symbols.*
+
+Detective Caine: (whispering to himself) Hollowbrook, you old ghost. What secrets are you hiding in your quiet corners?
+
+[He takes a sip of coffee, the liquid barely able to cut through the heavy atmosphere.]
+
+-> Find out what secrets Hollowbrook is hiding
+    <<jump SecretsOfHollowbrook>>
+===
+
+title: SecretsOfHollowbrook
+---
+Detective Caine: (looking at a newspaper clipping) October 17th, the night everything changed. A heartless killer haunts these streets, leaving fear in its wake. But there's something more, something beyond the mortal coil.
+
+[He glances at a photo of Yanin, the 12-year-old girl.]
+
+Detective Caine: Yanin Blackwood, a puzzle piece in this twisted game. Her spiritual ability is the key, the reason this malevolent force is on the hunt. But why her? What makes this village a breeding ground for the supernatural?
+
+-> Ponder why Yanin is important to this mystery
+    <<jump DetectiveCainePonders>>
+===
+
+title: DetectiveCainePonders
+---
+[The room creaks, as if the very walls are listening.]
+
+Detective Caine: (leaning back, rubbing his temples) I can feel it in the air, a malevolence that goes beyond human understanding. The town, it's like a living, breathing entity, hiding its sins beneath the picturesque facade.
+
+[He stands, pacing the room.]
+
+Detective Caine: (looking in the mirror) Caine, you old dog. You've seen your fair share of darkness, but this... this is different. It's like the shadows have a life of their own, dancing to a macabre tune.
+
+[He grabs his coat, determination in his eyes.]
+
+-> Recognizes that evil is taking hold of the Village
+    <<jump OnAMissionToFindSolution>>
+===
+
+title: OnAMissionToFindSolution
+---
+Detective Caine: Yanin needs answers, and so do I. There's a connection, a thread that ties this all together. I can't shake the feeling that I'm being watched, that every step I take, the town is watching, judging.
+
+[He opens the door, the hallway outside eerily silent.]
+
+Detective Caine: Hollowbrook, you can keep your secrets for now, but I'll unravel them, one by one. We're dancing on the edge of madness, and I won't let the night claim us without a fight.
+
+[He steps into the hallway, the door closing with a creak, leaving the room in haunting silence.]
+
+-> Leaves house 
+===
+
+title: Start1
+tags:
+---
+Detective : ah...
+Detective : Where am I...
+Detective : Am.. I dead..?
+Boogeyman : Haha..
+Boogeyman : Well... if you think that you are dead...
+Boogeyman : YOU ARE...
+Boogeyman : But if you don't think so..
+Boogeyman : YOU ARE NOT... 
+Boogeyman : Haha..ha..ha
+
+<<jump decision1>>
+===
+
+title : decision1
+tags:
+---
+What do you think...?
+-> I'm alive
+    <<jump alive>>
+-> I'm dead
+    <<jump dead>>
+
+===
+
+title: alive
+tags:
+---
+Boogeyman : Well done...
+Boogeyman : So...
+Boogeyman : What is your command to know from me..
+Detective : What happended to that girl you killed..
+Boogeyman : You are not making it clear..
+Boogeyman : Which girl are you talking about...Ha..haha..
+Detective : Oh my...
+Detective : The girl you killed on October 17th...
+Boogeyman : Hm...
+Boogeyman : ah... Hm....
+Boogeyman : Oh... I see
+Boogeyman : That girl named Lana..?
+Detective : It's Alana... What happened to her..
+Boogeyman : Alana...
+Boogeyman : You know what.. I don't even memorize names..Ha.ha..
+Detective : Cut the shit!!
+Detective : What did you do to her..!
+Boogeyman : Well..
+Boogeyman : Her bedroom's window was opened..
+Boogeyman : I climbed up to her room slowly and quietly..
+Boogeyman : So it wouldn't wake her up...
+Boogeyman : I used my finger and sharpened my nail..
+Boogeyman : I placed my nail on her forehead..slowly..and..slowly..
+Boogeyman : Ha.ha....that poor girl..
+Boogeyman : She woke up but I made her on mute
+Boogeyman : She couldn't release her voice..
+Boogeyman : Ah...the scent of her blood...
+Boogeyman : It's still in my mind... ah...
+Detective : Tha..that's enough..
+Detective : Wha.. why...
+Boogeyman : Well... it's my type of thing...
+Boogeyman : Be glad that you think you are alive..
+Boogeyman : Ha..haha...
+
+===
+
+title: dead
+tags:
+---
+Detective : I think I'm dead..
+Detective : I can't feel my body...neither the ability to touch..
+Boogeyman : Well done...
+Boogeyman : You chose to be dead...ha..haha..
+Detective : Wha..What just happended..?
+Boogeyman : Haha..haha.....
+Boogeyman : GOTCHA...
+===
+
+title: Alana
+---
+Yanin: You look like you have something to tell me.
+Alana: No it's nothing, I'm practicing to sigh properly.
+-> Press her further.
+    <<jump Press>>
+-> Stay quiet.
+    <<jump Quiet>>
+===
+
+title: Press
+---
+Yanin: I know you're bothered by something.
+Alana: You really are such a keen little girl. Thank you for wanting to listen to my story.
+Yanin: It's alright, you're looking paler than usual.
+Alana: *Scoff* That joke wasn't funny.
+===
+
+title: Quiet
+---
+Yanin: ...
+Alana: ...
+Yanin: ... *stare*...
+Alana: Okay, okay, I'll confess! You have a way of coaxing the truth out of me with just a glance.
+Yanin: That's better.
+===
+
+title: Continue
+---
+Alana: Yes, I recall. You shared details about your life, including the fact that I seemed to exist in your childhood home.
+Yanin: Yeah, listening to the high school tightrope contest featuring the Easter Bunny mascot was quite an experience.
+Alana: You make it sound like it was a bad event.
+Yanin: *Mutter* It was.
+Alana: Come on Yanin, don't be like that. I think it's time to tell you an important part of my life. My death.
+Yanin: ...
+Alana: I received an invitation to my boyfriend's 26th birthday party in the year 19XX, and being a thoughtful girlfriend, I purchased a unique and special gift for him.
+Alana: He had a keen interest in vintage trinkets and gadgets, so I decided to gift him a vintage maroon clock.
+-> What was his name?
+    <<jump Name>>
+-> ...
+    <<jump MovingOn>>
+===
+
+title: Name
+---
+Yanin: What was his name?
+Alana: His name was... I've forgotten.
+Alana: Excuse me I'm sorry, my boyfriend of 6 years name is-
+Yanin: I'll know his name in due time. What happened next?
+Alana: Uhm, okay then, lets continue.
+===
+
+title: MovingOn
+---
+Alana: The time was 1:07 in the morning. I will never forget it.
+Alana: I can't recall the exact location, but he guided me to a lake. 
+Alana: Engaging in typical activities, we settled down at the dock, gazing at the stars in the sky while engaging in casual conversation.
+-> Was this the night you died?
+    <<jump dumbquestion>>
+-> What happened next?
+    <<jump Next>>
+===
+
+title: dumbquestion
+---
+Alana: *Nods* Yes. Yes, it was.
+Alana: ...
+Alana: I will never forget it.
+===
+
+title: Next
+---
+Yanin: What happened next?
+Alana: I took his gift out from my pocket and his teeth spread into a wide smile.
+Alana: At first I interpreted it as a smile of gratitude but the sharp cold feeling in my abdomen made me feel different.
+Alana: And that was it. The only thing I saw alive was the cold blue eyes of my deciever as I sank into the lake floor.
+Alana: My blood was seeping out of me, the shock allowing me to block all sense of feeling.
+-> Where's your body now?
+    <<jump body>>
+-> Why are you telling me this now?
+    <<jump Reason>>
+===
+
+title: body
+---
+Alana: Nope, I don't recall where my body is. For all I know it's in the lake that I fell into.
+Alana: My 24-year-old youth shattered in an instant.
+===
+
+title:Reason
+---
+Yanin: Why are you telling me this now?
+Alana: Well, I don't know if you will believe me but I've seen him in this town a couple of nights before.
+Yanin: Alive?
+Alana: 
+Alana: No.
+Alana: "He appeared different, more sinister. I recognized him through a sense, but I don't know how or why he's here.
+Alana: I have a deep fondness for you, Yanin. Since my death, you're the only one I've been able to talk to.
+Yanin: Thank you for thinking of me like that.
+Yanin: Do you think he's connected to the recent missing and murder cases?
+Alana: I'm not too sure but if he is. You would need to find out his name. That's the only thing that would save you.
+Yanin: Just as you brought me an orange from my kitchen when I mentioned Alana Bestello in the sentence.
+Alana: We don't talk about that okay. That was a dark moment.
+Alana: But in all seriousness, Yanin. You should steer clear my former partner. 
+Alana: If he is apart of something more evil - besides murdering me - then you would need to find his name.
+Yanin: *sigh*
+Alana: Please, Yanin I'm counting on you. Only you could do it. That Caine guy may not know what he's getting into.
+===
